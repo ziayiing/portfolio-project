@@ -42,6 +42,11 @@ p {
   line-height: 35px;
 }
 
+#coded-by {
+margin-bottom: 50px;
+}
+
+
 .logo {
   max-width: 150px;
 }
@@ -174,6 +179,8 @@ footer .email-link{
 footer .email-link:hover{
 color: #b398f5 !important;
 }
+
+
 
 @media (max-width: 1000px) {
   h2 {
