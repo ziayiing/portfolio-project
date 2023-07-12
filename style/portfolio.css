@@ -34,16 +34,33 @@ h6 {
   padding: 10px;
 }
 
-@media(max-width:600px){
-  h1{
+.social-media {
+  text-align: center;
+  border: 1px solid white;
+  background-color: #f9f7fe;
+
+}
+
+.social-media i {
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  h1 {
     font-size: 32px;
   }
-  p{
+  p {
     font-size: 13px;
     line-height: 1.5;
   }
-  h6{
+  h6 {
     font-size: 13px;
   }
-  
+  .social-media i {
+  padding: 10px;
+}
+
+.hero {
+  padding: 20px 10px;
+}
 }
