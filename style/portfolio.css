@@ -21,6 +21,34 @@ h1 {
   font-size: 72px;
 }
 
+h2{
+ font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+h3 {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  margin-bottom: 50px;
+}
+
+h5{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+   font-family: var(--default-font-family);
+}
+
+img{
+border-radius: 10px;
+}
+
+
 p {
   font-family: var(--default-font-family);
   color: white;
@@ -28,10 +56,12 @@ p {
   margin-top: 20px;
   line-height: 35px;
 }
+
 h6 {
   font-size: 28px;
   font-weight: 700;
   padding: 10px;
+  font-family: var(--default-font-family);
 }
 
 .social-media {
@@ -45,10 +75,27 @@ h6 {
   padding: 30px;
 }
 
+.follow-me{
+  margin-top: 50px;
+}
+
+.follow-me i{
+  padding: 10px;
+}
+
+.about-section{
+  margin-bottom: 100px;
+}
+
+.about-section-description{
+  margin:80px 30px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 32px;
   }
+
   p {
     font-size: 13px;
     line-height: 1.5;
@@ -63,4 +110,49 @@ h6 {
 .hero {
   padding: 20px 10px;
 }
+
+h2{
+font-size: 32px;
+margin-bottom: 20px
+}
+
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 20px
+}
+
+
+.about-section-description{
+  margin: 10px;
+}
+
+.follow-me{
+  margin-top: 20px;
+}
+
+}
+
+@media (max-width: 1000px) {
+h2{
+font-size: 32px;
+margin-bottom: 40px
+}
+
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 20px
+}
+
+
+.about-section-description{
+  margin: 30px;
+}
+
+.follow-me{
+  margin-top: 20px;
+}
+
+
 }
