@@ -28,3 +28,22 @@ p {
   margin-top: 20px;
   line-height: 35px;
 }
+h6 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+@media(max-width:600px){
+  h1{
+    font-size: 32px;
+  }
+  p{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  h6{
+    font-size: 13px;
+  }
+  
+}
