@@ -42,17 +42,16 @@ p {
   line-height: 35px;
 }
 
-.logo{
+.logo {
   max-width: 150px;
 }
 
-.active{
-color: #b398f5 !important;
+.active {
+  color: #b398f5 !important;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 10px;
-
 }
 
 .content-container {
@@ -95,16 +94,6 @@ color: #b398f5 !important;
   font-family: var(--default-font-family);
 }
 
-.social-media {
-  text-align: center;
-  border: 1px solid white;
-  background-color: #f9f7fe;
-}
-
-.social-media i {
-  padding: 30px;
-}
-
 .follow-me {
   margin-top: 50px;
 }
@@ -126,6 +115,64 @@ color: #b398f5 !important;
   font-weight: 700;
   line-height: 1.5;
   font-family: var(--default-font-family);
+}
+
+.contact-box {
+  text-align: center;
+  background-color: #d9e0f7;
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: 100px;
+}
+.contact-box h4{
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.btn {
+background-color: #6c63ff !important;
+border-radius: 4px;
+color: white !important;
+font-size: 22px;
+line-height: 30px;
+padding: 50px, 30px;
+margin: 0;
+transition: all 100ms ease-in-out;
+
+}
+
+.btn:hover{
+  color: black !important;
+}
+
+.social-link a{
+  padding: 10px 14px;
+  margin: 0 25px;
+  color: #b398f5 !important;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  background-color: #d9e0f7 ;
+  border-radius: 50%;
+}
+
+.social-link a:hover{
+  color: #d9e0f7 !important;
+  background-color: #b398f5;
+  
+}
+
+footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+footer .email-link:hover{
+color: #b398f5 !important;
 }
 
 @media (max-width: 1000px) {
@@ -151,6 +198,17 @@ color: #b398f5 !important;
     font-size: 48px;
     line-height: 1;
   }
+  .contact-box{
+    margin: 20px;
+  }
+
+  .contact-box h4{
+    margin-left: 0px;
+  }
+
+  .btn{
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -169,9 +227,6 @@ color: #b398f5 !important;
     line-height: 1.5;
   }
 
-  .social-media i {
-    padding: 10px;
-  }
 
   .hero {
     padding: 20px 10px;
@@ -201,5 +256,9 @@ color: #b398f5 !important;
   .content-container h2 {
     font-size: 30px;
     line-height: 1;
+  }
+
+  footer .email-link{
+    margin-top: 30px;
   }
 }
