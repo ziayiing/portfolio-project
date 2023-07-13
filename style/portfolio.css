@@ -42,10 +42,6 @@ p {
   line-height: 35px;
 }
 
-#coded-by {
-margin-bottom: 50px;
-}
-
 
 .logo {
   max-width: 150px;
@@ -180,6 +176,10 @@ footer .email-link:hover{
 color: #b398f5 !important;
 }
 
+#coded-by {
+margin-bottom: 50px;
+font-size: 18px;
+}
 
 
 @media (max-width: 1000px) {
@@ -206,7 +206,7 @@ color: #b398f5 !important;
     line-height: 1;
   }
   .contact-box{
-    margin: 20px;
+    margin: 40px 20px;
   }
 
   .contact-box h4{
@@ -216,6 +216,16 @@ color: #b398f5 !important;
   .btn{
     margin-right: 0px;
   }
+
+   footer .email-link{
+    margin-top: 50px;
+    font-size: 22px;
+  }
+
+  #coded-by {
+    font-size: 16px;
+  }
+  
 }
 
 @media (max-width: 600px) {
@@ -266,6 +276,15 @@ color: #b398f5 !important;
   }
 
   footer .email-link{
-    margin-top: 30px;
+    margin-top: 50px;
+    font-size: 18px;
   }
-}
+
+  #coded-by {
+    font-size: 12px;
+  }
+  
+    
+  }
+
+
